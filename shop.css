@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ruda:wght@400..900&display=swap');
+
+.main-info{
+    min-width: 1110px;
+    margin: 0 auto;
+    font-family: "Monserrat";
+}
+
+.main-offer{
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+
+.main-offer-about{
+    width: 516px;
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #002C6A;
+}
+
+.main-offer-about p{
+    font-style: 36px;
+    font-family: "Ruda";
+    margin: 37px 0;
+}
+
+.main-btn-show{
+    all: unset;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FF1818;
+    color: #fff;
+    border-radius: 50px;
+    width: 282px;
+    height: 85px;
+    text-align: center;
+}
+
+.blue-box{
+    width: 857px;
+    min-height: 333px;
+    background-color: #002C6A;
+    border-radius: 400px;
+    transform: rotateZ(-22.5deg);
+    position: absolute;
+    left: -35;
+    bottom: 70px;
+    z-index: -1;
+}
+
+.main-offer-image{
+    position: relative;
+}
+
+.main-other-offer{
+    margin-top: 94px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 141px;
+}
+
+.main-other-sneakers{
+    position: relative;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #29292D;
+    width: 282px;
+    height: 86px;
+    border-radius: 70px;
+    box-shadow: 5px 15px 32px rgba(22, 92, 191, 0.2);
+    display: flex;
+    align-items: center;
+    padding-left: 117px;
+    box-sizing: border-box;
+}
+
+.main-other-sneakers> img{
+    position: absolute;
+    left: -25%;
+    top: -50%;
+}
+
+.main-other-sneakers button{
+    all: unset;
+    position: absolute;
+    
+}
+
